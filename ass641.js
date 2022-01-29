@@ -25,7 +25,7 @@ var state = {
       <span id="item-${todoItem}">${todoItem}</span>
       <button onclick="doubleItem('${todoItem}')">2X</button>
       <i onclick="deleteItem('${todoItem}')" class="fa fa-trash-o" style="font-size:20px;color:red"></i>
-      <button    id="edit('${todoItem}')" >EDIT</button>
+      
       
     </div>`;
     
